@@ -3,6 +3,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "country-selector": [
+        "./dist/country-selector"
+      ]
+    },
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -22,5 +27,19 @@
     "typeCheckHostBindings": true,
     "strictTemplates": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/country-selector/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/country-selector/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/country-selector-demo/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/country-selector-demo/tsconfig.spec.json"
+    }
+  ]
 }

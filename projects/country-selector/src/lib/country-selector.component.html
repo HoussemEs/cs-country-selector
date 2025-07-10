@@ -1,0 +1,42 @@
+<div [class]="'country-selector-container ' + containerClass">
+  <img
+    *ngIf="includeFlags && selectedCountry?.flagUrl"
+    [src]="selectedCountry?.flagUrl"
+    [class]="('country-flag ' + flagClass) + ' ' + ('selected-country-flag ' + selectedFlagClass)"
+    alt="Flag"
+  />
+
+  <input
+    type="text"
+    [formControl]="countrySearchControl"
+    [placeholder]="placeholder"
+    (focus)="onFocus()"
+    (blur)="onBlur()"
+    (keydown)="onKeyDown($event)"
+    [value]="displayValue"
+    [class]="'country-input ' + inputClass"
+    [attr.aria-expanded]="showDropdown"
+    [attr.aria-activedescendant]="activeDescendant"
+    role="combobox"
+  />
+
+  <div *ngIf="showDropdown && filteredCountries.length" [class]="'country-dropdown ' + dropdownClass">
+    <ul role="listbox">
+      <li
+        *ngFor="let country of filteredCountries; let i = index"
+        (mousedown)="selectCountry(country)"
+        [id]="'country-option-' + i"
+        role="option"
+        [class]="('country-item ' + itemClass) + (i === highlightIndex ? ' ' + ( 'active ' + activeItemClass) : '')"
+      >
+        <img
+          *ngIf="includeFlags"
+          [src]="country.flagUrl"
+          [class]=" 'country-flag ' + flagClass"
+          alt="{{ country.name }} flag"
+        />
+        {{ country.name }}
+      </li>
+    </ul>
+  </div>
+</div>
