@@ -1,4 +1,4 @@
-🌍 cs-country-selector
+🌍 cs-country-selector<br>
 A lightweight, fully customizable country selector component for Angular, with flag support, keyboard accessibility, dynamic filtering, and zero dependencies.
 
 💡 Built with modern Angular (standalone components) — works with all Angular versions and styles (SCSS, CSS, Tailwind, etc.)
