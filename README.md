@@ -21,6 +21,9 @@
 </ul>
 
 <hr />
+   <h2>✨ Demo</h2>
+   ![cs-country-selector demo](./src/assets/demo.png)
+<hr />
 
 <h2>🚀 Installation</h2>
 <pre><code>npm install cs-country-selector

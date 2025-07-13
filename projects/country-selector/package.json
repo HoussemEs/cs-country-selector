@@ -1,12 +1,25 @@
 {
-  "name": "country-selector",
-  "version": "0.0.1",
-  "peerDependencies": {
-    "@angular/common": "^20.1.0",
-    "@angular/core": "^20.1.0"
+  "name": "cs-country-selector",
+  "version": "0.0.4",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HoussemEs/cs-country-selector"
   },
-  "dependencies": {
-    "tslib": "^2.3.0"
+  "keywords": [
+    "angular",
+    "country-selector",
+    "flags",
+    "autocomplete",
+    "country-dropdown",
+    "customizable",
+    "standalone",
+    "high compatibility"
+  ],
+  "author": "houssemhosni13@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HoussemEs/cs-country-selector/issues"
   },
-  "sideEffects": false
+  "homepage": "https://github.com/HoussemEs/cs-country-selector#readme"
 }

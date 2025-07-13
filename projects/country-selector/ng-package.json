@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/country-selector",
+  "dest": "../../dist/cs-country-selector",
   "lib": {
     "entryFile": "src/public-api.ts"
   }
