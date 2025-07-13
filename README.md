@@ -22,7 +22,7 @@
 
 <hr />
    <h2>✨ Demo</h2>
-   <img src="https://raw.githubusercontent.com/HoussemEs/cs-country-selector/refs/heads/master/projects/country-selector/src/assets/demo.png" width="400" alt="cs-country-selector demo">
+   <img src="https://raw.githubusercontent.com/HoussemEs/cs-country-selector/master/projects/country-selector-demo/public/demo.png" width="400" alt="cs-country-selector demo">
 <hr />
 
 <h2>🚀 Installation</h2>
