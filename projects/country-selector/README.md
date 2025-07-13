@@ -22,7 +22,7 @@
 
 <hr />
    <h2>✨ Demo</h2>
-   ![cs-country-selector demo](./src/assets/demo.png)
+   ![cs-country-selector demo](https://raw.githubusercontent.com/HoussemEs/cs-country-selector/refs/heads/master/projects/country-selector/src/assets/demo.png)
 <hr />
 
 <h2>🚀 Installation</h2>
